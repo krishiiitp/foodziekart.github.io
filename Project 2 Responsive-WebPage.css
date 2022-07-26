@@ -1,0 +1,29 @@
+.navbar {
+  flex-direction: column;
+}
+.navbar ul li a {
+  font-size: 1rem;
+  padding: 0px 7px;
+}
+#home {
+  height: 370px;
+  padding: 3px 68px;
+}
+#home::before {
+  height: 480px;
+}
+.services {
+  flex-direction: column;
+}
+#client-section {
+  overflow: hidden;
+}
+.client-item img {
+  padding: 2px 6px;
+  width: 150px;
+}
+.btn2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
